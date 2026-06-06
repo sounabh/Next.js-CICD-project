@@ -6,7 +6,7 @@ cd /var/www/nextjs-app
 
 # Install dependencies
 echo "📦 Installing dependencies..."
-npm ci --production 
+npm ci 
  
 # Build application
 echo "🔨 Building application..."
