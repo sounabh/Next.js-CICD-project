@@ -7,14 +7,16 @@ export default function RegisterPage() {
     <>
       <Navbar />
       <main className="flex min-h-screen flex-col items-center justify-center p-24">
-        <h1 className="text-3xl font-bold mb-8">Register</h1>
-        <RegisterForm />
-        <p className="mt-4">
-          Already have an account?{' '}
-          <Link href="/login" className="text-blue-600 hover:underline">
-            Login
-          </Link>
-        </p>
+        <div className="w-full max-w-md">
+          <h1 className="text-3xl font-bold mb-8 text-center">Register</h1>
+          <RegisterForm />
+          <p className="mt-4 text-center text-sm">
+            Already have an account?{' '}
+            <Link href="/login" className="text-blue-600 hover:underline font-medium">
+              Login here
+            </Link>
+          </p>
+        </div>
       </main>
     </>
   )
