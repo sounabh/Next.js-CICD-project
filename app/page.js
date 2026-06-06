@@ -8,6 +8,7 @@ export default function Home() {
       <main className="flex min-h-screen flex-col items-center justify-center p-24">
         <h1 className="text-4xl font-bold mb-8">Welcome to MyApp</h1>
         <p className="text-xl mb-8">A Next.js app with CI/CD Pipeline</p>
+            <p className="text-xl mb-8 text-center">By sounabh</p>
         <div className="flex gap-4">
           <Link
             href="/login"
